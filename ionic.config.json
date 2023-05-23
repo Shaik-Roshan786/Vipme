@@ -1,0 +1,7 @@
+{
+  "name": "VIPme",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
