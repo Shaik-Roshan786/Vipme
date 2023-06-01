@@ -1,0 +1,147 @@
+$white-color: #fff;
+$height100: 100%;
+
+
+ion-grid {
+    width:100%;
+    height: $height100;
+    background: #dfdfdf;
+}
+
+a{
+    text-decoration: underline;
+}
+ion-row {
+    height: $height100;
+}
+
+ion-col {
+    border: 1px solid #488aff;
+    background: $white-color;
+}
+
+ion-button {
+    font-weight: 300;
+}
+
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: $white-color;
+    }
+    ion-col {
+        border: none;
+    }
+}
+#bg {
+    height: 40%;
+    width: auto;
+    background: var(--ion-color-dark) url('https://thumbs.dreamstime.com/b/yellow-fire-truck-208470.jpg') no-repeat center center/cover;
+    border-radius: 0 0 45% 45%;
+    margin-left: -21vw;
+    position: relative;
+}
+ion-list {
+    ion-list-header {
+        font-weight: 1000;
+        font-size: 1.5rem;
+    }
+    ion-item {
+        border: 2px solid orange;
+        
+        height: 1%;
+        border-radius: 30px;
+        -webkit-box-shadow: 0 6px 4px -4px var(--ion-color-medium);
+        -moz-box-shadow: 0 6px 4px -4px var(--ion-color-medium);
+        box-shadow: 3px 6px 4px -4px var(--ion-color-medium);
+    }
+    p {
+        font-size: 0.8rem;
+        padding-left: 5vw;
+    }
+}
+h3 {
+    color: #4e5358;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+ion-button {
+    --background: #687184;
+    margin-top: 60px;
+    height: 40px;
+}
+ion-toolbar {
+    --color: #ffffff;
+    --background:#697184;
+  }
+
+  .center{   
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  .fn {
+    margin-left: 6%;
+    color: black;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+  }
+
+  .ln {
+    margin-left: 6%;
+    color: black;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+  }
+
+.number {
+    margin-left: 6%;
+    color: black;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+.email {
+    margin-left: 6%;
+    color: black;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+
+.checkbox {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.roshan{
+    display: flex; flex-direction: row;
+}
+.check{
+    display: flex;  
+    margin-top: 50px;
+}
+
+.bg-container {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+}
+
+.terms {
+    color: orange;
+}
+
+.privacy {
+    color: orange;
+}

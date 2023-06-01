@@ -1,0 +1,75 @@
+.bg-container {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.description  {
+    // color: white;
+    // padding: 10px;
+    // margin-left: 20px;
+    // padding-top: 150px;
+    // font-weight: 400;
+    position: absolute;
+width: 355px;
+height: 240px;
+left: 26px;
+top: 236px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: black;
+
+}
+
+.heading {
+    // color: orange;
+    // padding: 10px;
+    // margin-left: 20px;
+    // padding-top: 50px;
+    // font-weight: 400;
+    position: absolute;
+width: 96px;
+height: 24px;
+left: 62px;
+top: 59px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+background: linear-gradient(90deg, #F55B03 0%, #FCA311 84.15%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+
+.vipme {
+    // color: white;
+    // text-align: center;
+    // font-weight: 400;
+    // font-size: 50px;
+    // color: orange;
+    position: absolute;
+width: 174px;
+height: 59px;
+left: 119px;
+top: 110px;
+
+font-family: 'Monsieur La Doulaise';
+font-style: normal;
+font-weight: 400;
+font-size: 48.64px;
+line-height: 76px;
+
+color: #DCB62F;
+}
